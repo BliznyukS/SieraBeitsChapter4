@@ -6,8 +6,9 @@ public class DogTestDrive {
         two.size = 8;
         Dog three = new Dog();
         three.size = 35;
+        int a = 5;
 
-        one.bark(4);
+        one.bark(a);
         two.bark(2);
         three.bark(3);
     }
