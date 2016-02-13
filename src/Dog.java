@@ -1,6 +1,6 @@
 public class Dog {
-    int size;
-    String name;
+   protected int size;
+   protected String name;
 
     void bark(int numOfBarks) {
         /*while (numOfBarks > 0) {

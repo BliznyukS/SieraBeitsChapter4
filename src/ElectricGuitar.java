@@ -1,7 +1,7 @@
 public class ElectricGuitar {
-        String brand;
-        int numOfPickups;
-        boolean rockStarUsesIt;
+       private String brand;
+       private int numOfPickups;
+       private boolean rockStarUsesIt;
 
         String getBrand () {
             return brand;
