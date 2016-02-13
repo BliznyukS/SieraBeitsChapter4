@@ -5,10 +5,9 @@ public class XCopy {
     public static void main(String[] args) {
 
         int orig = 42;
-        int x;
 
-
-        XCopy x =x.go(orig);
+        XCopy x = new XCopy();
+        int y = x.go(orig);
         System.out.println(orig + " " + y);
     }
 
